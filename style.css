@@ -1,0 +1,18 @@
+/* hight should be count*li >= #fixed to ensure overflow*/
+.display li {
+  height: 400px;
+  width: 30%;
+  float: left;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+#fixed {
+    height: 800px;
+    overflow: auto;
+}
+.search{
+	margin-top: 12px;
+	float: right;
+}
+
